@@ -22,3 +22,4 @@ This project implements a custom IR communication system between a Flipper Zero 
 - `.cpp` → application logic  
 - `.fam` → Flipper app metadata  
 - `.fap` → compiled binary (generated with `ufbt build`)
+- `.ino` → Arduino
