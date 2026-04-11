@@ -1,0 +1,16 @@
+App(
+    appid="ir_messenger",
+    name="IR Messenger",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="sam_app",
+    cdefines=["APP_IR_MESSENGER"],
+    requires=[
+        "gui",
+        "dialogs",
+    ],
+    stack_size=4 * 1024,
+    fap_author="@kohuke",
+    fap_weburl="",
+    fap_version="0.1",
+    fap_description="IR-based ASCII messaging between Flipper Zero and Arduino.",
+)
