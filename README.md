@@ -26,4 +26,4 @@ This project implements a custom IR communication system between a Flipper Zero 
 
 
 
-⚠ GitHub thinks this is COBOL. It is not. 
+
